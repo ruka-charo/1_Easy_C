@@ -12,7 +12,7 @@ void r_add(int& x, int& y, int add_points);
 
 
 int main(){
-    int a, b, c, d, add_points;
+    int a, b, add_points;
 
     cout << "2科目分の点数を入力してください。\n";
     cin >> a >> b;
@@ -25,8 +25,8 @@ int main(){
     r_add(a, b, add_points);
 
     cout << add_points << "点加算しましたので\n";
-    cout << "科目1は" << c << "点になりました。\n";
-    cout << "科目2は" << d << "点になりました。\n";
+    cout << "科目1は" << a << "点になりました。\n";
+    cout << "科目2は" << b << "点になりました。\n";
 
     return 0;
 }
